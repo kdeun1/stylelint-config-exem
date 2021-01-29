@@ -1,0 +1,23 @@
+{
+  "name": "stylelint-config-exem",
+  "version": "1.0.0",
+  "description": "Exem CSS Style Guide",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex-em/stylelint-config-exem.git"
+  },
+  "keywords": [
+    "exem"
+  ],
+  "author": "EXEM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ex-em/stylelint-config-exem/issues"
+  },
+  "homepage": "https://github.com/ex-em/stylelint-config-exem#readme",
+  "dependencies": {
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-order": "^4.1.0"
+  }
+}
