@@ -43,7 +43,7 @@ module.exports = {
     'declaration-bang-space-after': 'never',
     'declaration-bang-space-before': 'always',
     'declaration-block-semicolon-newline-after': 'always-multi-line',
-    'declaration-block-semicolon-space-after': 'always',
+    'declaration-block-semicolon-space-after': 'always-single-line',
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
@@ -84,13 +84,6 @@ module.exports = {
     'number-leading-zero': 'always',
     'number-no-trailing-zeros': true,
     'property-case': 'lower',
-    'rule-empty-line-before': [
-      'always-multi-line',
-      {
-        except: ['first-nested'],
-        ignore: ['after-comment'],
-      },
-    ],
     'selector-attribute-brackets-space-inside': 'never',
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
