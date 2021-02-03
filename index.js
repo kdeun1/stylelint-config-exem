@@ -4,6 +4,7 @@ module.exports = {
   extends: 'stylelint-config-recommended',
   plugins: [
     'stylelint-order',
+    'stylelint-scss',
   ],
   rules: {
     'at-rule-empty-line-before': [
@@ -84,6 +85,17 @@ module.exports = {
     'number-leading-zero': 'always',
     'number-no-trailing-zeros': true,
     'property-case': 'lower',
+    'scss/at-extend-no-missing-placeholder': true,
+    'scss/at-function-pattern': '^[a-z]+([a-z0-9-_]+[a-z0-9]+)?$',
+    'scss/at-import-no-partial-leading-underscore': true,
+    'scss/at-import-partial-extension-blacklist': ['scss'],
+    'scss/at-mixin-pattern': '^[a-z]+([a-z0-9-_]+[a-z0-9]+)?$',
+    'scss/at-rule-no-unknown': true,
+    'scss/dollar-variable-colon-space-after': 'always',
+    'scss/dollar-variable-colon-space-before': 'never',
+    'scss/dollar-variable-pattern': '^[_]?[a-z]+([a-z0-9-_]+[a-z0-9]+)?$',
+    'scss/percent-placeholder-pattern': '^[a-z]+([a-z0-9-_]+[a-z0-9]+)?$',
+    'scss/selector-no-redundant-nesting-selector': true,
     'selector-attribute-brackets-space-inside': 'never',
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
@@ -268,25 +280,25 @@ module.exports = {
       'font-size',
       'font-style',
       'font-weight',
-      'font-variant', // font 소문자를 작은 대문자로 치환
-      'font-size-adjust', // 폰트 종횡비 설정하여 다양한 브라우저, 다양한 폰트에 대한 종횡비 깨지지 않게 설정
-      'font-stretch', // 폰트 너비 설정(폰트 자체 설정 값, 설정 폰트가 없는 경우 제공 X)
+      'font-variant',
+      'font-size-adjust',
+      'font-stretch',
       'line-height',
       'letter-spacing',
       'color',
       'text-align',
-      'text-align-last', // 마지막줄 정렬
+      'text-align-last',
       'text-decoration',
-      'text-indent', // 들여쓰기
-      'text-justify', // 텍스트 정렬
-      'text-transform', // text 대소문자 설정
+      'text-indent',
+      'text-justify',
+      'text-transform',
       'text-overflow',
       'text-shadow',
       'white-space',
       'word-spacing',
       'word-wrap',
       'word-break',
-      'hyphens', // word break 시 하이픈 표시 여부
+      'hyphens',
       'quotes',
       'counter-reset',
       'counter-increment',

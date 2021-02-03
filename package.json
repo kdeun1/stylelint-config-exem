@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ex-em/stylelint-config-exem#readme",
   "dependencies": {
     "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
