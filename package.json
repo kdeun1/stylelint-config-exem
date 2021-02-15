@@ -3,6 +3,9 @@
   "version": "1.2.0",
   "description": "Exem CSS Style Guide",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ex-em/stylelint-config-exem.git"
