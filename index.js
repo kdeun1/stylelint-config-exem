@@ -17,6 +17,7 @@ module.exports = {
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always-single-line',
     'at-rule-semicolon-newline-after': 'always',
+    'at-rule-no-unknown': null,
     'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': 'always',
     'block-closing-brace-newline-before': 'always-multi-line',
@@ -120,8 +121,16 @@ module.exports = {
     'value-list-comma-space-before': 'never',
     'value-list-max-empty-lines': 0,
     'order/order': [
+      {
+        type: 'at-rule',
+        name: 'import',
+      },
       'custom-properties',
       'dollar-variables',
+      {
+        type: 'at-rule',
+        name: 'extend',
+      },
       'declarations',
       'at-rules',
     ],

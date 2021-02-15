@@ -1,5 +1,6 @@
 # stylelint-config-exem
-- stylelint-config-exem은 exem css 컨벤션 lint 룰 셋입니다.
+- stylelint-config-exem은 exem css 컨벤션 lint 룰셋입니다.
+- stylelint-config-exem은 [styleline-config-standard](https://github.com/stylelint/stylelint-config-standard)를 기준으로 작성되었으며, scss/order 관련 규칙을 추가하였습니다. 
 
 ## Install
 ```bash
@@ -18,6 +19,7 @@ module.exports = {
 ```
 
 ## EXEM CSS Style Guide
+[CSS Style Guide](./STYLE-GUIDE.md)
 
 ## License
 This software is licensed under the [MIT License](https://github.com/ex-em/stylelint-config-exem/blob/main/LICENSE).
