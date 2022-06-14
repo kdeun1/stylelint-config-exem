@@ -1,9 +1,8 @@
+'use strict';
+
 module.exports = {
   extends: [
-    'stylelint-config-recommended',
-    'stylelint-config-standard-scss',
-    'stylelint-config-recommended-vue/scss',
-    'stylelint-config-html/vue',
+    'stylelint-config-recommended'
   ],
   plugins: [
     'stylelint-order',
