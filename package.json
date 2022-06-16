@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-exem",
+  "name": "stylelint-config-exem-frontend",
   "version": "2.0.0",
   "description": "Exem CSS Style Guide",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "keywords": [
     "exem"
   ],
-  "author": "EXEM",
+  "author": "EXEM-DPM-FE",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ex-em/stylelint-config-exem/issues"
