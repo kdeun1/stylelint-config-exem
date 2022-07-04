@@ -1,4 +1,4 @@
-# stylelint-config-exem
+# stylelint-config-exem-frondend
 - stylelint-config-exem은 exem css 컨벤션 lint 룰셋입니다.
 - stylelint-config-exem은 [styleline-config-standard](https://github.com/stylelint/stylelint-config-standard)를 기준으로 작성되었으며, scss/order 관련 규칙을 추가하였습니다. 
 
