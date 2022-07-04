@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-exem-frontend",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Exem CSS Style Guide",
   "main": "index.js",
   "files": [
